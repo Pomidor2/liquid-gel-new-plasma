@@ -24,5 +24,5 @@ clean:
 	rm -rf *.pkg.tar.zst
 	rm -rf pkg
 	rm -rf liquid-gel
-	rm -rf src/liquid-gel
+	rm -rf src/plasma-liquid-gel
 
