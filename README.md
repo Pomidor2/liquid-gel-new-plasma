@@ -69,8 +69,8 @@ Currently supported versions: **6.4**
 
 ### Building
 ```sh
-git clone https://github.com/pearOS-archlinux/liquid-gel
-cd liquid-gel
+git clone https://github.com/Pomidor2/liquid-gel-new-plasma
+cd liquid-gel-new-plasma
 mkdir build
 cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=/usr
