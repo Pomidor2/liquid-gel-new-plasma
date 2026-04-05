@@ -1,8 +1,8 @@
 # Maintainer: Your Name <your.email@example.com>
-pkgname=pearos-liquidgel
-pkgver=26.2
+pkgname=plasma-liquidgel
+pkgver=6.6.3
 pkgrel=1
-pkgdesc="Fork of the KWin Blur effect for pearOS with additional features (including force blur) and bug fixes"
+pkgdesc="Fork of the KWin Blur effect for Plasma with additional features (including force blur) and bug fixes"
 arch=('x86_64')
 url="https://github.com/pearOS-archlinux/liquid-gel"
 license=('GPL3')
@@ -54,10 +54,10 @@ package() {
     for f in \
         "${plugindir}/kwin/effects/plugins/forceblur.so" \
         "${plugindir}/kwin/effects/plugins/metadata.json" \
-        "${plugindir}/kwin/effects/configs/pearos_liquidgel_config.so" \
+        "${plugindir}/kwin/effects/configs/plasma_liquidgel_config.so" \
         "${plugindir}/kwin-x11/effects/plugins/forceblur_x11.so" \
         "${plugindir}/kwin-x11/effects/plugins/metadata.json" \
-        "${plugindir}/kwin-x11/effects/configs/pearos_liquidgel_config.so"; do
+        "${plugindir}/kwin-x11/effects/configs/plasma_liquidgel_config.so"; do
         if [[ ! -f "$f" ]]; then
             echo "EROARE: lipsește din pachet: $f"
             return 1
