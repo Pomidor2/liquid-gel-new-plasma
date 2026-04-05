@@ -21,7 +21,7 @@ Fixes for blur-related Plasma bugs that haven't been patched yet.
 Better Blur will usually support at least one previous Plasma release (second number in version - 6.x). Exceptions may be made if there is a large amount of breaking 
 changes.
 
-Currently supported versions: **6.4**
+Currently supported versions: **6.6**
 
 # Installation
 > [!IMPORTANT]
